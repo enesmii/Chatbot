@@ -1,0 +1,409 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- menu.aiml -->
+
+    <category>
+		<pattern>INES MAU NGUCAPIN TERIMAKASIH</pattern>
+		<template>Mau ngucapin Terimakasih buat siapa nih? </template>
+    </category>
+
+    <category>
+		<pattern>BUAT DIRI SENDIRI </pattern>
+		<template>Terimakasih untuk Enesmi Clarita Hutabarat yang
+		 sudah berjuang menyelesaikan Tugas Akhir. akhirnya toh nama e sudah ada S.Kom nya.
+		 Satu beban udah selesai, Tapi ini bukan akhir tapi awal. jadi Enesmi musti semangat ya.
+		 -Love,my self </template>
+    </category>
+
+    <category>
+		<pattern>WKWKWK</pattern>
+		<template>cie udah ketawa sekarang, dulu aja nangis. Yok semangat 2021 </template>
+    </category>
+    <category>
+		<pattern>MAU NGUCAPIN TERIMAKASIH LAGI </pattern>
+		<template>siapa nih? </template>
+    </category>
+    <category>
+		<pattern>TUHAN YESUS </pattern>
+		<template>Ya Tuhan Yesus, ines banyak sambat dikit-dikit doa, makasihh udah berikan ines kekuatan,
+		temen-temen yang nemenin ines, kesehatan, semuanyaaa.   Makasih banyak Tuhan Yesus. Amin</template>
+    </category>
+ <category>
+		<pattern>AMIN</pattern>
+		<template>Amin, Jangan lupa selalu mengucap syukur ya apapun hasilnya. </template>
+    </category>
+    <category>
+		<pattern>AKU JUGA MAU NGUCAPIN MAKASIH KE TEMAN-TEMANKU</pattern>
+		<template>Oke, Temen2 nya inesssss Terimakasih sudah support , ngucapin
+		selamat dan bikin story tentang ines ya hehehe aku senang sekali </template>
+    </category>
+    <category>
+		<pattern>ORANGTUA AKU HEHE JADI KANGEN BANGET ASLI </pattern>
+		<template>Halo Papa Mama nya ines, Terimakasih sudah mendonasikan dana dan support include dengan doa
+		24/7 ke ines ya. Jangan lupa nanti wisuda datang ya ke jogja hehe.
+		 </template>
+    </category>
+    <category>
+		<pattern>HEHE KE PACAR JUGA DEH </pattern>
+		<template>Hai Pacar, Selamat datang di dunia nya ines. Makasih sudah menyediakan punggung untuk menangis,
+		makasih sudah menjadi moodboosternya ines hehe  </template>
+    </category>
+    <category>
+		<pattern>EH LUPA UCAPAN UNTUK MUMU SI KUCING YANG MENEMANIKU SELAMA SKRIPSI </pattern>
+		<template>Hai mumu, makasih sudah menjadi kucing yang baik. kamu nemenin ines kemanapun,
+		 ngehibur pas dia lagi nangis dikamar datang buat dielusin. Selamat ya pas ines jadi S.Kom,
+		 eh kamu sudah jadi ibu kucing. wkwkwkwk </template>
+    </category>
+     <category>
+		<pattern>UDAH ITU AJA DEH </pattern>
+		<template>Okeyy Baiklah. Selamat menjadi S.Kom ya nes :)
+		 Semoga cepat dapat kerja ya! </template>
+    </category>
+    <category>
+		<pattern>MAKASIH PIGO  </pattern>
+		<template>Sama sama Enesmi Clarita Hutabarat </template>
+    </category>
+
+
+                                <!-- INFO PMB -->
+    <category>
+		<pattern>* INFORMASI PENERIMAAN MAHASISWA BARU</pattern>
+		<template><srai>INFO PMB</srai></template>
+	</category>
+	<category>
+	    <pattern>INFORMASI PENERIMAAN MAHASISWA BARU</pattern>
+	    <template><srai>INFO PMB </srai></template>
+	 </category>
+	 <category>
+	    <pattern>* INFORMASI PMB * </pattern>
+	    <template><srai>INFO PMB </srai></template>
+	 </category>
+	 <category>
+	    <pattern> INFORMASI PMB * </pattern>
+	    <template><srai>INFO PMB </srai></template>
+	 </category>
+	 <category>
+	    <pattern> INFORMASI PMB  </pattern>
+	    <template><srai>INFO PMB </srai></template>
+	 </category>
+	 <category>
+	    <pattern> TENTANG PMB * </pattern>
+	    <template><srai>INFO PMB </srai></template>
+	 </category>
+	 <category>
+	    <pattern> TENTANG PMB  </pattern>
+	    <template><srai>INFO PMB </srai></template>
+	 </category>
+	 <category>
+	    <pattern>  PMB  </pattern>
+	    <template><srai>INFO PMB </srai></template>
+	 </category>
+
+	<category>
+		<pattern>INFO PMB</pattern>
+		<template>Informasi PMB untuk Pendaftaran UKDW 2021/2022 sudah dibuka. Silahkan Ketik MENU untuk
+		 Informasi lebih lanjut </template>
+	</category>
+
+                         <!-- menu-->
+
+    <category>
+		<pattern>UKDW</pattern>
+		<template><srai>UKDW</srai></template>
+	</category>
+	<category>
+	    <pattern>INFORMASI UKDW </pattern>
+	    <template><srai>UKDW </srai></template>
+	 </category>
+
+	<category>
+		<pattern>UKDW</pattern>
+		<template>UKDW adalah Salah satu Universitas Swasta di Yogyakarta. Ketik JURUSAN untuk mengetahui
+		  jurusan apa saja yang ada di ukdw </template>
+	</category>
+
+	<category>
+	    <pattern>* JURUSAN UKDW  </pattern>
+	    <template><srai>JURUSAN </srai></template>
+	 </category>
+	 <category>
+	    <pattern>JURUSAN UKDW </pattern>
+	    <template><srai>JURUSAN</srai></template>
+	 </category>
+	 <category>
+	    <pattern>PRODI  UKDW </pattern>
+	    <template><srai>JURUSAN </srai></template>
+	 </category>
+	<category>
+		<pattern>JURUSAN </pattern>
+		<template>Daftar Program Sarjana(S-1) di UKDW : Teologi, informatika, Sistem Informasi, PBI, Akuntansi
+		, Manajemen, Arsitektur, Desain Produk dan Bioteknologi </template>
+	</category>
+
+
+	<category>
+		<pattern>MENU</pattern>
+		<template>Pilih salah satu Menu Pendaftaran PMB :
+		 *Jadwal Pendaftaran, *Biaya Pendaftaran atau *Syarat Pendaftaran </template>
+	</category>
+	<category>
+		<pattern>INFO</pattern>
+		<template>Hai kak, Informasi yang ingin kakak lihat apa? Silahkan dipilih salah satu  :
+		 *)Jadwal Pendaftaran, *)Biaya Pendaftaran atau *)Syarat Pendaftaran </template>
+	</category>
+
+
+    <category>
+       <pattern>APA SAJA SYARAT UNTUK IKUT JPA</pattern>
+       <template>Ada 5 syaratnya :
+                1.	Lulusan SMA tahun ini
+                2.	Rata-rata nilai rapor 75
+                3.	Fotocopy rapor kls 10-11
+                4.	Foto 3x4 (1 lembar)
+                5.	Mengisi formulir</template>
+    </category>
+      <category>
+         <pattern>MATERI TES KEDOKTERAN </pattern>
+         <template>Hari Pertama = TPA, Bahasa Inggris, Biologi dan Pengetahuan Kesehatan dan
+                    Hari Kedua = Tes Kesehatan, Psikotest MMPI, dan Wawancara Prodi</template>
+        </category>
+        <category>
+         <pattern>* MATERI TES KEDOKTERAN * </pattern>
+         <template>Hari Pertama = TPA, Bahasa Inggris, Biologi dan Pengetahuan Kesehatan dan
+                    Hari Kedua = Tes Kesehatan, Psikotest MMPI, dan Wawancara Prodi</template>
+        </category>
+        <category>
+         <pattern>* MATERI TES KEDOKTERAN </pattern>
+         <template>Hari Pertama = TPA, Bahasa Inggris, Biologi dan Pengetahuan Kesehatan dan
+                    Hari Kedua = Tes Kesehatan, Psikotest MMPI, dan Wawancara Prodi</template>
+        </category>
+
+    <category>
+		<pattern>* JADWAL PENDAFTARAN * </pattern>
+		<template> Pilih salah satu jadwal yang ingin kamu lihat : 1.Seleksi Pretasi 2.Seleksi Reguler 3.Seleksi Kedokteran 4.Seleksi Filsafat
+
+		 </template>
+	</category>
+
+
+	<category>
+		<pattern>SAYA MAU TAU JADWAL PENDAFTARAN DI UKDW</pattern>
+		<template><srai> JADWAL PENDAFTARAN </srai></template>
+	</category>
+    <category>
+		<pattern>KAPAN JADWAL PENDAFTARAN</pattern>
+		<template><srai> JADWAL PENDAFTARAN </srai></template>
+	</category>
+    <category>
+		<pattern>JADWAL PENDAFTARAN KAPAN </pattern>
+		<template><srai> JADWAL PENDAFTARAN</srai></template>
+	</category>
+	<category>
+		<pattern>JADWAL PENDAFTARAN KAPAN AJA</pattern>
+		<template><srai> JADWAL PENDAFTARAN </srai></template>
+	</category>
+	    <category>
+		<pattern>JADWAL PENDAFTARAN </pattern>
+		<template>JADWAL PENDAFTARAN PMB . Pilih salah satu : 1) Seleksi Prestasi 2) Seleksi Reguler 3) Seleksi Kedokteran 4) Seleksi Filsafat Keilahian
+		           </template>
+	</category>
+	    <category>
+		<pattern>SELEKSI PRESTASI</pattern>
+		<template>Jadwal Seleksi Prestasi  sudah dibuka dari sekarang sampai 11 juni 2020. Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW </template>
+	</category>
+	<category>
+		<pattern>1</pattern>
+		<template>Jadwal Seleksi Prestasi  sudah dibuka dari sekarang sampai 11 juni 2020. Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW</template>
+	</category>
+
+        <category>
+		<pattern>SELEKSI REGULER</pattern>
+		<template>Seleksi Reguler dibuka 21 Mei 2021 -13 Agustus 2021. Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW </template>
+	</category>
+	<category>
+		<pattern>2</pattern>
+		<template>Seleksi Reguler dibuka 21 Mei 2021 -13 Agustus 2021. Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW </template>
+	</category>
+	<category>
+		<pattern>SELEKSI KEDOKTERAN</pattern>
+		<template>Seleksi Kedokteran ada 4 Gelombang. kamu bisa daftar dari sekarang sampai 21 Agustus 2021.
+		Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW </template>
+	</category>
+	<category>
+		<pattern>3</pattern>
+		<template>Seleksi Kedokteran ada 4 Gelombang. kamu bisa daftar dari sekarang sampai 21 Agustus 2021.
+		Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW </template>
+	</category>
+
+    <category>
+		<pattern>SELEKSI FILSAFAT KEILAIHAN</pattern>
+		<template>Seleksi Fil.Keilaihan ada 4 Gelombang. kamu bisa daftar dari sekarang sampai 29 Juli 2021.
+		Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW </template>
+	</category>
+<category>
+		<pattern>4</pattern>
+		<template>Seleksi Fil.Keilaihan ada 4 Gelombang. kamu bisa daftar dari sekarang sampai 29 Juli 2021.
+		Silahkan untuk Daftar Online ya!
+		kami tunggu kehadiran kamu di UKDW </template>
+	</category>
+    <category>
+		<pattern>* BIAYA PENDAFTARAN *</pattern>
+		<template>Biaya Pendaftaran Untuk Seleksi Prestasi,Mandiri dan Reguler Rp.200.000,- Untuk seleksi Kedokteran Rp.1.250.000,-
+		          Untuk Seleksi Filsafat Keilahian Rp.500.000
+		           </template>
+    </category>
+    <category>
+		<pattern> BIAYA PENDAFTARAN </pattern>
+		<template>Biaya Pendaftaran Untuk Seleksi Prestasi,Mandiri dan Reguler Rp.200.000,- Untuk seleksi Kedokteran Rp.1.250.000,-
+		          Untuk Seleksi Filsafat Keilahian Rp.500.000
+		           </template>
+    </category>
+
+    <category>
+		<pattern>BIAYA KULIAH DI UKDW BERAPA </pattern>
+		<template><srai>BIAYA KULIAH </srai></template>
+	</category>
+	 <category>
+		<pattern>BERAPA BIAYA KULIAH</pattern>
+		<template><srai> BIAYA KULIAH </srai></template>
+	</category>
+	<category>
+		<pattern>HARGA BIAYA KULIAH</pattern>
+		<template><srai> BIAYA KULIAH </srai></template>
+	</category>
+	<category>
+		<pattern>ADA BIAYA KULIAH </pattern>
+		<template><srai> BIAYA KULIAH </srai></template>
+	</category>
+	<category>
+	    <pattern>BIAYA KULIAH APA AJA </pattern>
+	    <template><srai> BIAYA KULIAH</srai></template>
+	</category>
+    <category>
+		<pattern>BIAYA KULIAH</pattern>
+		<template> Untuk Biaya kuliah lengkap di portal : pmb.ukdw.ac.id
+		           </template>
+    </category>
+    <category>
+	    <pattern>CARA DAFTAR ONLINE</pattern>
+	    <template><srai>ONLINE</srai></template>
+	</category>
+	 <category>
+	    <pattern>BAGAIMANA DAFTAR ONLINE</pattern>
+	    <template><srai>ONLINE</srai></template>
+	</category>
+	 <category>
+	    <pattern>GIMANA DAFTAR ONLINE</pattern>
+	    <template><srai>ONLINE</srai></template>
+	</category>
+	<category>
+	    <pattern>APAKAH HARUS DAFTAR ONLINE</pattern>
+	    <template><srai>ONLINE</srai></template>
+	</category>
+
+    <category>
+		<pattern>* CARA DAFTAR ONLINE *</pattern>
+		<template> Yuk daftar sekarang! Pendaftaran lansung ke website PMB UKDW lalu mengisi Formulir Online
+		            dan Cetak Billing untuk pembayaran.
+		           </template>
+    </category>
+    <category>
+		<pattern>* CARA DAFTAR ONLINE </pattern>
+		<template>  Yuk daftar sekarang! Pendaftaran lansung ke website PMB UKDW lalu mengisi Formulir Online
+		            dan Cetak Billing untuk pembayaran.
+		           </template>
+    </category>
+     <category>
+		<pattern> CARA DAFTAR ONLINE * </pattern>
+		<template>  Yuk daftar sekarang! Pendaftaran lansung ke website PMB UKDW lalu mengisi Formulir Online
+		            dan Cetak Billing untuk pembayaran.
+		           </template>
+    </category>
+    <category>
+		<pattern> * CARA PENDAFTARAN ONLINE </pattern>
+		<template>  Yuk daftar sekarang! Pendaftaran lansung ke website PMB UKDW lalu mengisi Formulir Online
+		            dan Cetak Billing untuk pembayaran.
+		           </template>
+    </category>
+     <category>
+		<pattern> * CARA MENDAFTAR ONLINE </pattern>
+		<template>  Yuk daftar sekarang! Pendaftaran lansung ke website PMB UKDW lalu mengisi Formulir Online
+		            dan Cetak Billing untuk pembayaran.
+		           </template>
+    </category>
+
+    <category>
+	    <pattern>CARA DAFTAR ONLINE</pattern>
+	    <template><srai>CARA DAFTAR </srai></template>
+	</category>
+	 <category>
+	    <pattern>CARA DAFTAR PMB </pattern>
+	    <template><srai>CARA DAFTAR </srai></template>
+	</category>
+	 <category>
+	    <pattern>BAGAIMANA CARA PENDAFTARAN DI UKDW </pattern>
+	    <template><srai>CARA DAFTAR </srai></template>
+	</category>
+	 <category>
+	    <pattern>GIMANA DAFTAR ONLINE</pattern>
+	    <template><srai>CARA DAFTAR </srai></template>
+	</category>
+	<category>
+		<pattern>CARA DAFTAR</pattern>
+		<template>  Yuk daftar sekarang! Pendaftaran lansung ke website PMB UKDW lalu mengisi Formulir Online
+		            dan Cetak Billing untuk pembayaran.
+		           </template>
+    </category>
+
+	<category>
+		<pattern>APA KABAR</pattern>
+		<template>Baik... Semoga kabar kamu juga baik ya</template>
+	</category>
+	<category>
+        <pattern>GIMANA KABAR</pattern>
+        <template><think><set name="state">sad</set></think>
+            <condition name="state" value="happy">Saya senang!</condition>
+            <condition name="state" value="sad">Saya sedih!</condition>
+        </template>
+    </category>
+
+
+
+    <category>
+		<pattern>ADAKAH KONTAK YANG BISA SAYA HUBUNGI</pattern>
+		<template><srai>KONTAK YANG BISA DIHUBUNGI</srai></template>
+	</category>
+	 <category>
+		<pattern>* KONTAK * </pattern>
+		<template><srai>KONTAK YANG BISA DIHUBUNGI</srai></template>
+	</category>
+	<category>
+		<pattern> KONTAK </pattern>
+		<template><srai>KONTAK YANG BISA DIHUBUNGI</srai></template>
+	</category>
+	<category>
+		<pattern>NOMOR PMB </pattern>
+		<template><srai>KONTAK YANG BISA DIHUBUNGI</srai></template>
+	</category>
+	<category>
+		<pattern>* NOMOR PMB * </pattern>
+		<template><srai>KONTAK YANG BISA DIHUBUNGI</srai></template>
+	</category>
+	<category>
+		<pattern>KONTAK YANG BISA SAYA HUBUNGI</pattern>
+		<template><srai>KONTAK YANG BISA DIHUBUNGI</srai></template>
+	</category>
+	<category>
+		<pattern>KONTAK YANG BISA DIHUBUNGI</pattern>
+		<template>Telp. :  (0274) 550657 / (0274) 563929 ext. 101/120 Fax. :  (0274) 550657  LINE: ukdw jogja
+		WA : 0813 9160 7395 Email : pmb@staff.ukdw.ac.id</template>
+	</category>
+
+</aiml>

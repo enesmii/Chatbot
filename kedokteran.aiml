@@ -1,0 +1,225 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- kedokteran.aiml -->
+
+
+	                                    <!-- JADWAL FK -->
+
+	<category>
+       <pattern>* JADWAL TES KEDOKTERAN *</pattern>
+       <template><srai> JADWAL TES FK </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * KEDOKTERAN  </pattern>
+       <template><srai> JADWAL TES FK </srai> </template>
+    </category>
+    <category>
+       <pattern>* TES KEDOKTERAN </pattern>
+       <template><srai> JADWAL TES FK </srai> </template>
+    </category>
+    <category>
+       <pattern>JADWAL TES KEDOKTERAN  </pattern>
+       <template> <srai> JADWAL TES FK </srai></template>
+    </category>
+    <category>
+       <pattern>JADWAL UJIAN KEDOKTERAN  </pattern>
+       <template><srai> JADWAL TES FK </srai></template>
+    </category>
+    <category>
+       <pattern>* JADWAL TES FK * </pattern>
+       <template><srai> JADWAL TES FK </srai></template>
+    </category>
+    <category>
+       <pattern>* JADWAL * FK </pattern>
+       <template><srai> JADWAL TES FK </srai></template>
+    </category>
+    <category>
+       <pattern> JADWAL  FK </pattern>
+       <template><srai> JADWAL TES FK </srai></template>
+    </category>
+    <category>
+       <pattern>JADWAL KEDOKTERAN </pattern>
+       <template><srai> JADWAL TES FK </srai></template>
+    </category>
+    <category>
+       <pattern>* JADWAL KEDOKTERAN * </pattern>
+       <template><srai> JADWAL TES FK </srai></template>
+    </category>
+
+    <category>
+       <pattern> JADWAL TES FK  </pattern>
+       <template> Jadwal Tes Fakultas Kedokteran  ada 4 Gelombang nih. Gelombang 1 =(19-20 Februari 2021),
+                Gelombang 2 = (18-19 juni 2021) ,Gelombang 3 = (16-17 Juli 2021),
+                Gelombang 4 = (20-21 Agustus 2021)</template>
+    </category>
+
+    <category>
+       <pattern>* GELOMBANG 1 FK </pattern>
+       <template><srai> GELOMBANG 1 FK </srai></template>
+    </category>
+    <category>
+       <pattern>* GELOMBANG 1 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 1 FK </srai></template>
+    </category>
+    <category>
+       <pattern> GELOMBANG 1 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 1 FK </srai></template>
+    </category>
+    <category>
+       <pattern>GELOMBANG 1 FK </pattern>
+       <template> Jadwal Tes Fakultas Kedokteran  Gelombang 1 Adalah 19-20 Februari 2021
+               </template>
+    </category>
+
+    <category>
+       <pattern>* GELOMBANG 2 FK </pattern>
+       <template><srai> GELOMBANG 2 FK </srai></template>
+    </category>
+    <category>
+       <pattern> GELOMBANG 2 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 3 FK </srai></template>
+    </category>
+    <category>
+       <pattern>* GELOMBANG 2 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 2 FK </srai></template>
+    </category>
+    <category>
+       <pattern>GELOMBANG 2 FK  </pattern>
+       <template> Jadwal Tes Fakultas Kedokteran  Gelombang 2 Adalah 18-19 Juni 2021
+               </template>
+    </category>
+
+     <category>
+       <pattern>* GELOMBANG 3 FK </pattern>
+       <template><srai> GELOMBANG 3 FK </srai></template>
+    </category>
+    <category>
+       <pattern> GELOMBANG 3 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 3 FK </srai></template>
+    </category>
+    <category>
+       <pattern>* GELOMBANG 3 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 3 FK </srai></template>
+    </category>
+    <category>
+       <pattern>GELOMBANG 3 FK  </pattern>
+       <template> Jadwal Tes Fakultas Kedokteran  Gelombang 3 Adalah 16-17 Juli 2021
+               </template>
+    </category>
+
+    <category>
+       <pattern>* GELOMBANG 4 FK </pattern>
+       <template><srai> GELOMBANG 4 FK  </srai></template>
+    </category>
+    <category>
+       <pattern> GELOMBANG 4 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 4 FK </srai></template>
+    </category>
+    <category>
+       <pattern>* GELOMBANG 4 KEDOKTERAN </pattern>
+       <template><srai> GELOMBANG 4 FK </srai></template>
+    </category>
+    <category>
+       <pattern>GELOMBANG 4 FK  </pattern>
+       <template> Jadwal Tes Fakultas Kedokteran  Gelombang 4 Adalah 20-21 Agustus 2021
+               </template>
+    </category>
+
+
+                                <!-- BIAYA KULIAH KEDOKTERAN -->
+
+    <category>
+		<pattern>* BIAYA KULIAH KEDOKTERAN*  </pattern>
+		<template><srai> BIAYA KULIAH KEDOKTERAN </srai> </template>
+	</category>
+	<category>
+		<pattern>BIAYA KULIAH KEDOKTERAN * </pattern>
+		<template><srai> BIAYA KULIAH KEDOKTERAN </srai> </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH KEDOKTERAN </pattern>
+		<template> <srai> BIAYA KULIAH KEDOKTERAN </srai> </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH * KEDOKTERAN </pattern>
+		<template> <srai> BIAYA KULIAH KEDOKTERAN </srai>  </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH KEDOKTERAN * </pattern>
+		<template> <srai> BIAYA KULIAH KEDOKTERAN </srai>  </template>
+	</category>
+	<category>
+		<pattern>  BIAYA KULIAH KEDOKTERAN </pattern>
+		<template> Biaya kuliah di Fakultas Kedokteran Untuk estimasi semester 1 dengan total biaya: Rp. 297.005.000,-
+		            untuk estimasi 8 semester dengan total biaya : Rp. 542.605.000,- </template>
+	</category>
+
+
+                        <!-- BIAYA PENDAFTARAN  KEDOKTERAN  -->
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN KEDOKTERAN  * </pattern>
+		<template><srai> BIAYA PENDAFTARAN KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN KEDOKTERAN  * </pattern>
+		<template><srai> BIAYA PENDAFTARAN KEDOKTERAN  </srai> </template>
+	</category>
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN KEDOKTERAN  </pattern>
+		<template> <srai> BIAYA PENDAFTARAN KEDOKTERAN  </srai>  </template>
+	</category>
+	<category>
+		<pattern> BIAYA DAFTAR KEDOKTERAN  </pattern>
+		<template> <srai> BIAYA PENDAFTARAN KEDOKTERAN  </srai>  </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA PENDAFTARAN KEDOKTERAN  </pattern>
+		<template> Biaya Pendaftaran Untuk Fakultas Kedokteran adalah :  Rp1.250.000 </template>
+	</category>
+
+
+                                    <!-- SYARAT KEDOKTERAN  -->
+    <category>
+		<pattern>* SYARAT PENDAFTARAN KEDOKTERAN  </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT KEDOKTERAN  </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * KEDOKTERAN  </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT KEDOKTERAN  </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  KEDOKTERAN  * </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * KEDOKTERAN  * </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * KEDOKTERAN   </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  KEDOKTERAN  </pattern>
+		<template><srai> SYARAT DAFTAR KEDOKTERAN  </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR KEDOKTERAN  </pattern>
+		<template>Persyaratan Tes untuk Fakultas Kedokteran : Lulusan SMA IPA (minimal 3 tahun), Rapor 10-12, Foto berwarna,
+		            Formulir Kesehatan, dan KTP Orangtua. </template>
+	</category>
+
+
+</aiml>
+

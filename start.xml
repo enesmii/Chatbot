@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- start.xml -->
+	<category>
+		<pattern>PMB</pattern>
+		<template>
+			<learn>syarat.aiml</learn>
+			<learn>jadwal.aiml</learn>
+			<learn>biaya.aiml</learn>
+			<learn>sapaan.aiml</learn>
+			<learn>menu.aiml</learn>
+			<learn>beasiswa.aiml</learn>
+			<learn>aboutUKDW.aiml</learn>
+			<learn>ice.aiml</learn>
+			<learn>prosfek.aiml</learn>
+			<learn>informatika.aiml</learn>
+			<learn>teologi.aiml</learn>
+			<learn>kedokteran.aiml</learn>
+			<learn>arsitektur.aiml</learn>
+			<learn>biotek.aiml</learn>
+			<learn>manajemen.aiml</learn>
+			<learn>akuntansi.aiml</learn>
+			<learn>despro.aiml</learn>
+		</template>
+	</category>
+</aiml>

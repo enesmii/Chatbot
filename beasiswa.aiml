@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- beasiswa.aiml -->
+	<category>
+		<pattern>APAKAH DAPAT POTONGAN JIKA ADA SAUDARA KANDUNG DI UKDW</pattern>
+		<template>Bisa banget. Cukup menyertakan persyaratan tambahan seperti :
+                    a.	Fotocopy Kartu Keluarga
+                    b.	Fotocopy ijazah(bila alumni) atau Fotocopy KTM
+        </template>
+	</category>
+	<category>
+		<pattern>APAKAH ADA BEASISWA DI UKDW</pattern>
+		<template>Ya jelas ada dong</template>
+	</category>
+	<category>
+		<pattern>BEASISWA APA SAJA DI UKDW</pattern>
+		<template>Beasiswa Talenta Dutawacana , Online Scholarship Competition Metro Tv dll.
+		Untuk info lebih lanjut bisa menghubungi biro 3 : 0812-2823-6737
+        </template>
+	</category>
+	<category>
+		<pattern>APAKAH KEDOKTERAN ADA BEASISWA</pattern>
+		<template>Maaf, Kedokteran tidak mempunyai beasiswa
+        </template>
+	</category>
+	<category>
+		<pattern>BEASISWA UNTUK TEOLOGI APA SAJA</pattern>
+		<template>Prodi Teologi tidak ada layanan beasiswa dari kampus,
+		jika ingin mendapat beasiswa biasanya dari gerejanya masing-masing
+        </template>
+	</category>
+	<category>
+		<pattern>ADAKAH BEASISWA FULL DARI UKDW</pattern>
+		<template>Iya ada, Namanya beasiswa Talenta</template>
+	</category>
+	<category>
+		<pattern>APAKAH BEASISWA BIDIKMISI BERLAKU DI UKDW</pattern>
+		<template>Iya, Bidikmisi ada kuota untuk UKDW</template>
+	</category>
+</aiml>

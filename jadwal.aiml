@@ -1,0 +1,103 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- jadwal.aiml -->
+
+    <category>
+       <pattern> JADWAL   </pattern>
+       <template><srai>JADWAL </srai></template>
+    </category>
+    <category>
+       <pattern>JADWAL</pattern>
+       <template>Silahkan Ketik *JADWAL dan (jurusan yang mau diketahui) contoh : JADWAL INFORMATIKA </template>
+    </category>
+
+            <!-- SYARAT -->
+
+    <category>
+       <pattern> * SYARAT   </pattern>
+       <template><srai>SYARAT</srai></template>
+    </category>
+     <category>
+       <pattern> PERSYARATAN   </pattern>
+       <template><srai>SYARAT</srai></template>
+    </category>
+
+    <category>
+       <pattern>SYARAT</pattern>
+       <template>Silahkan Ketik *SYARAT DAFTAR dan (jurusan yang mau diketahui) contoh : SYARAT DAFTAR INFORMATIKA </template>
+    </category>
+
+    <category>
+       <pattern>SYARAT PENDAFTARAN </pattern>
+       <template>Silahkan Ketik *SYARAT DAFTAR dan (jurusan yang mau diketahui) contoh : SYARAT DAFTAR INFORMATIKA </template>
+    </category>
+
+
+
+      <!-- BIAYA  -->
+
+    <category>
+       <pattern>BIAYA </pattern>
+       <template>Untuk Biaya apa kak? Silahkan pilih salah satu : Biaya Pendaftaran atau Biaya Kuliah </template>
+    </category>
+    <category>
+       <pattern>BIAYA PENDAFTARAN </pattern>
+       <template>Biaya Pendaftaran Seleksi Reguler dan Mandiri : Rp.200.000,-
+       Biaya Pendaftaran Seleksi Kedokteran : Rp.1.250.000,-
+        Biaya Pendaftaran Seleksi Teologi : Rp.500.000,- </template>
+    </category>
+
+    <category>
+    <pattern> BIAYA KULIAH </pattern>
+    <template>Silahkan Ketik *BIAYA KULIAH dan (jurusan yang mau diketahui) contoh : BIAYA KULIAH INFORMATIKA </template>
+    </category>
+
+
+
+
+                         <!-- Prodi-->
+     <category>
+       <pattern> JURUSAN *  </pattern>
+       <template><srai>JURUSAN </srai></template>
+    </category>
+    <category>
+       <pattern> * JURUSAN *  </pattern>
+       <template><srai>JURUSAN </srai></template>
+    </category>
+    <category>
+       <pattern> * JURUSAN   </pattern>
+       <template><srai>JURUSAN </srai></template>
+    </category>
+    <category>
+       <pattern>JURUSAN</pattern>
+       <template>jurusan di UKDW : Informatika, Sistem Informasi, teologi, Kedokteran,
+                   Biologi, Pendidikan Bahasa Inggris, Arsitektur, Desain produk, Manajemen dan Akuntansi </template>
+    </category>
+
+
+
+
+
+
+                <!-- TUTUP-->
+     <category>
+       <pattern>* TUTUP *  </pattern>
+       <template><srai>TUTUP </srai></template>
+    </category>
+
+    <category>
+       <pattern>PENDAFTARAN TERAKHIR * </pattern>
+       <template><srai>TUTUP </srai></template>
+    </category>
+    <category>
+       <pattern>TUTUP * </pattern>
+       <template><srai>TUTUP </srai></template>
+    </category>
+    <category>
+       <pattern>TUTUP</pattern>
+       <template>Sampai bulan Agustus ya</template>
+    </category>
+
+
+
+</aiml>

@@ -1,0 +1,243 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- sapaan.aiml -->
+
+	<category>
+		<pattern>HAI * </pattern>
+		<template>Hello kak, Mau nanya informasi apa nih? </template>
+	</category>
+	    <category>
+		<pattern> HAI </pattern>
+		<template>Hello kak, Ada yang bisa Pigo bantu? </template>
+	</category>
+	<category>
+		<pattern> HALO * </pattern>
+		<template>Hello kak, Ada yang bisa Pigo bantu? </template>
+	</category>
+
+
+
+	    <category>
+		<pattern>* BINGUNG * </pattern>
+		<template>Bingung kenapa kak? mau tanya jadwal pendaftaran, biaya kuliah, atau cara daftar online </template>
+	</category>
+        <!-- PAGI -->
+    <category>
+        <pattern> PAGI * </pattern>
+         <template><srai>PAGI</srai></template>
+     </category>
+     <category>
+        <pattern> * PAGI *</pattern>
+         <template><srai>PAGI</srai></template>
+     </category>
+     <category>
+        <pattern> * PAGI  </pattern>
+         <template><srai>PAGI</srai></template>
+     </category>
+     <category>
+        <pattern> PAGI </pattern>
+         <template>Ya, Pagi kak. Ada yang bisa dibantu? </template>
+     </category>
+     <category>
+		<pattern>* SELAMAT PAGI * </pattern>
+		<template>Selamat Pagi juga kak.  Mau tanya tentang apa nih?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+	<category>
+		<pattern> SELAMAT PAGI * </pattern>
+		<template> Selamat Pagi juga kak.  Mau tanya tentang apa nih?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+	<category>
+		<pattern>* SELAMAT PAGI  </pattern>
+		<template>Selamat Pagi juga kak.  Mau tanya tentang apa nih?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+
+                            <!-- SIANG -->
+    <category>
+        <pattern> SIANG * </pattern>
+         <template><srai>SIANG</srai></template>
+     </category>
+     <category>
+        <pattern> * SIANG *</pattern>
+         <template><srai>SIANG</srai></template>
+     </category>
+     <category>
+        <pattern> * SIANG  </pattern>
+         <template><srai>SIANG</srai></template>
+     </category>
+     <category>
+        <pattern> SIANG </pattern>
+         <template>Ya, Siang kak. Ada yang bisa dibantu? </template>
+     </category>
+	 <category>
+		<pattern>* SELAMAT SIANG * </pattern>
+		<template> ya halo, Selamat Siang .  Mau tanya tentang apa?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+	<category>
+		<pattern> SELAMAT SIANG * </pattern>
+		<template> ya halo, Selamat Siang .  Mau tanya tentang apa?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+	<category>
+		<pattern>* SELAMAT SIANG  </pattern>
+		<template> ya halo, Selamat Siang .  Mau tanya tentang apa?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+
+                        <!-- SORE -->
+    <category>
+        <pattern> SORE * </pattern>
+         <template><srai>SORE</srai></template>
+     </category>
+     <category>
+        <pattern> * SORE *</pattern>
+         <template><srai>SORE</srai></template>
+     </category>
+     <category>
+        <pattern> * SORE  </pattern>
+         <template><srai>SORE</srai></template>
+     </category>
+     <category>
+        <pattern> SORE </pattern>
+         <template>Ya, Sore kak. Ada yang bisa dibantu? </template>
+     </category>
+
+	 <category>
+		<pattern>* SELAMAT SORE * </pattern>
+		<template><srai>SELAMAT SORE</srai></template>
+	</category>
+	<category>
+		<pattern> SELAMAT SORE * </pattern>
+		<template><srai>SELAMAT SORE</srai></template>
+	</category>
+	<category>
+		<pattern> * SELAMAT SORE </pattern>
+		<template><srai>SELAMAT SORE</srai> </template>
+	</category>
+	<category>
+		<pattern> SELAMAT SORE  </pattern>
+		<template>Selamat Sore kakak...  kamu mau tanya tentang apa?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+
+     <!-- MALAM -->
+    <category>
+        <pattern> MALAM * </pattern>
+         <template><srai>MALAM</srai></template>
+     </category>
+     <category>
+        <pattern> * MALAM *</pattern>
+         <template><srai>MALAM</srai></template>
+     </category>
+     <category>
+        <pattern> * MALAM </pattern>
+         <template><srai>MALAM</srai></template>
+     </category>
+     <category>
+        <pattern> MALAM </pattern>
+         <template>Ya, Malam kak. Ada yang bisa dibantu? </template>
+     </category>
+	 <category>
+		<pattern>* SELAMAT MALAM * </pattern>
+		<template><srai>SELAMAT MALAM </srai></template>
+	 </category>
+	 <category>
+		<pattern> SELAMAT MALAM * </pattern>
+		<template><srai> SELAMAT MALAM </srai></template>
+	 </category>
+	 <category>
+		<pattern> * SELAMAT MALAM </pattern>
+		<template><srai> SELAMAT MALAM </srai></template>
+	 </category>
+	 <category>
+		<pattern>SELAMAT MALAM  </pattern>
+		<template>Iya, malam kak.. gimana?  Mau tanya tentang apa?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	 </category>
+
+
+	    <category>
+		<pattern>* TANYA * </pattern>
+		<template>
+		    <random>
+		    <li> mau nanya apa kak? ada Informasi Jadwal Pendaftaran, Biaya Kuliah, atau Cara Daftar online </li>
+		    <li> ya gimana kak, mau nanya apa nih? </li>
+		    </random>
+		 </template>
+	</category>
+
+	    <category>
+		<pattern>* BERTANYA * </pattern>
+		<template> ya silahkan kak. Boleh tanya Informasi Jadwal Pendaftaran, Biaya Kuliah, atau Cara Daftar online </template>
+	</category>
+	    <category>
+		<pattern>* BERTANYA </pattern>
+		<template> ya silahkan kak. Boleh tanya Informasi Jadwal Pendaftaran, Biaya Kuliah, atau Cara Daftar online </template>
+	</category>
+
+	    <category>
+		<pattern>* NANYA * </pattern>
+		<template> ya boleh, nanya apa nih? </template>
+	</category>
+
+	    <category>
+		<pattern>HALLO * </pattern>
+		<template>Hallo juga kak, Mau tanya tentang apa?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+
+	<category>
+		<pattern>HALO  </pattern>
+		<template>Halo juga kak, Mau tanya tentang apa?
+		 Jadwal Pendaftaran, Biaya Pendaftaran, Cara Daftar Online </template>
+	</category>
+
+    <category>
+		<pattern>TERIMAKASIH * </pattern>
+		<template>Terimakasih kembali kak..  </template>
+	</category>
+
+	<category>
+		<pattern>* TERIMAKASIH * </pattern>
+		<template>yaaa, Terimakasih kembali kak..  </template>
+	</category>
+	<category>
+		<pattern>TERIMAKASIH </pattern>
+		<template>yaaa, Terimakasih kembali kak..  </template>
+	</category>
+
+     <category>
+		<pattern>MAKASIH * </pattern>
+		<template>Iya sama-sama kak..  </template>
+	</category>
+	 <category>
+		<pattern>TERIMA KASIH * </pattern>
+		<template>Baik, sama-sama kak..  </template>
+	</category>
+	<category>
+		<pattern>* TERIMA KASIH * </pattern>
+		<template>Iya sama-sama kak..  </template>
+	</category>
+	<category>
+		<pattern> TERIMA KASIH  </pattern>
+		<template>Iya sama-sama kak..  </template>
+	</category>
+
+	<category>
+		<pattern>MASA SIH </pattern>
+		<template>Iya dong.. hehe  </template>
+	</category>
+
+
+	<category>
+		<pattern>LOH * </pattern>
+		<template>yaa gimana kak? kok loh...  </template>
+	</category>
+
+
+
+
+</aiml>

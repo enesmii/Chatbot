@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- prosfek.aiml -->
+	<category>
+       <pattern>APA PROSFEK KERJA LULUSAN AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN JURUSAN AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN PRODI AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>BAGAIMANA PROSFEK KERJA LULUSAN JURUSAN AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>BAGAIMANA PROSFEK KERJA LULUSAN PRODI AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>GIMANA PROSFEK KERJA LULUSAN JURUSAN AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>GIMANA PROSFEK KERJA LULUSAN PRODI AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>GIMANA PROSFEK KERJA LULUSAN AKUNTANSI</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>PROSFEK KERJA LULUSAN AKUNTANSI</pattern>
+       <template>Lulusan Akuntansi biasanya jadi Akuntan perusahaan, Auditor Eksternal,
+       Konsultan Pajak, Supervisor sistem akuntansi dan audit</template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN ARSITEKTUR</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN PRODI ARSITEKTUR</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN JURUSAN ARSITEKTUR</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>BAGAIMANA PROSFEK KERJA LULUSAN ARSITEKTUR</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>BAGAIMANA PROSFEK KERJA LULUSAN PRODI ARSITEKTUR</pattern>
+       <template><srai>PROSFEK KERJA LULUSAN JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>PROSFEK KERJA LULUSAN JURUSAN ARSITEKTUR</pattern>
+       <template>Lulusan dari Arsitek itu  Konsultan Arsitektur, Konsultan Interior, Kontraktor, Dosen</template>
+    </category>
+     <category>
+       <pattern>APA PROSFEK KERJA LULUSAN BIOTEK</pattern>
+       <template>Lulusan dari Biotek biasanya jadi Manager bagian Quality Assurance and Field Manager ,
+       Pendidik( edutrainer) , Peneliti</template>
+    </category>
+	<category>
+       <pattern>APA PROSFEK KERJA LULUSAN DESAIN PRODUK</pattern>
+       <template>Biasanya lulusan despro jadi Desainer Produk, Konsultan desain, Creative Director, Art Desain</template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN MANAJEMEN</pattern>
+       <template>Lulusan manajemen biasanya jadi E-commerce, Wirausaha, Manajer, Manajer pemasaran,
+       Manajer keuangan , pialang</template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN INFORMATIKA</pattern>
+       <template>Lulusan dari Informatika itu System Programmer, Network Service,
+       Database Administrator, Software Engineer, UID</template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN SISTEM INFORMASI</pattern>
+       <template>Lulusan dari Sistem Informasi itu Profesional SI, Sistem Analis, Programmer,
+       Administator basis data, System requirement</template>
+    </category>
+    <category>
+       <pattern>APA PROSFEK KERJA LULUSAN PENDIDIKAN BAHASA INGGRIS</pattern>
+       <template>Lulusan Bahasa inggris jadi pengajar ,
+       peneliti kajian pendidikan bahasa inggris , perancang program pembelajaran</template>
+    </category>
+</aiml>

@@ -1,0 +1,160 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+
+	<!-- DESPRO.aiml -->
+
+	  <!--JADWAL DESPRO -->
+
+	<category>
+       <pattern>* JADWAL TES DESPRO *</pattern>
+       <template> <srai>JADWAL DESPRO </srai></template>
+    </category>
+    <category>
+       <pattern>* TES DESPRO </pattern>
+       <template> <srai>JADWAL DESPRO </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES DESPRO  </pattern>
+       <template> <srai>JADWAL DESPRO </srai></template>
+    </category>
+     <category>
+       <pattern>TES DESPRO </pattern>
+       <template> <srai>JADWAL DESPRO </srai> </template>
+    </category>
+    <category>
+       <pattern>UJIAN DESPRO </pattern>
+       <template> <srai>JADWAL DESPRO </srai> </template>
+    </category>
+
+    <category>
+       <pattern> JADWAL DESPRO </pattern>
+       <template> Jadwal Tes Despro ada 3 seleksi nih. Pilih salah satu antara : REGULER,
+        MANDIRI atau PRESTASI untuk lebih tau Tanggal tes nya. </template>
+    </category>
+
+                                 <!-- TUTUP PENDAFTARAN DESPRO -->
+    <category>
+       <pattern>* TUTUP PENDAFTARAN DESPRO * </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern>* PENDAFTARAN TERAKHIR DESPRO </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern> PENDAFTARAN TERAKHIR DESPRO </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+
+
+                                    <!-- BIAYA KULIAH DESPRO -->
+
+    <category>
+		<pattern>* BIAYA KULIAH DESPRO * </pattern>
+		<template><srai> BIAYA KULIAH DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern>BIAYA KULIAH DESPRO * </pattern>
+		<template><srai> BIAYA KULIAH DESPRO </srai> </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH DESPRO </pattern>
+		<template> <srai> BIAYA KULIAH DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH * DESPRO </pattern>
+		<template> <srai> BIAYA KULIAH DESPRO </srai>  </template>
+	</category>
+	<category>
+		<pattern>  BIAYA KULIAH DESPRO </pattern>
+		<template> Biaya Kuliah di Prodi Despro Untuk estimasi semester 1 total : Rp. 9.430.000,- Untuk Biaya DPFP dengan
+		jumlah: RP.18.000.000,-
+		        untuk estimasi 8 semester keseluruhan dengan total biaya: Rp. 80.240.000,-  </template>
+	</category>
+
+
+                        <!-- BIAYA PENDAFTARAN  DESPRO -->
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN DESPRO * </pattern>
+		<template><srai> BIAYA PENDAFTARAN DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN DESPRO * </pattern>
+		<template><srai> BIAYA PENDAFTARAN DESPRO </srai> </template>
+	</category>
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN DESPRO </pattern>
+		<template> <srai> BIAYA PENDAFTARAN DESPRO </srai>  </template>
+	</category>
+	<category>
+		<pattern> BIAYA DAFTAR DESPRO </pattern>
+		<template> <srai> BIAYA PENDAFTARAN DESPRO </srai>  </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA PENDAFTARAN DESPRO  </pattern>
+		<template> Untuk Biaya Pendaftaran Prodi Despro dengan biaya :  Rp.200.000 </template>
+	</category>
+
+
+                                    <!-- SYARAT DESPRO -->
+    <category>
+		<pattern>* SYARAT PENDAFTARAN DESPRO </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT DESPRO </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * DESPRO </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT DESPRO </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  DESPRO * </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * DESPRO * </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * DESPRO </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  DESPRO  </pattern>
+		<template><srai> SYARAT DAFTAR DESPRO </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR DESPRO </pattern>
+		<template>Syarat Pendaftaran Prodi Despro adalah Mengisi Formulir Pendaftaran,
+		 Fotocopy Rapor kelas 10-12, Ijazah/SKHU dan Foto berwarna </template>
+	</category>
+
+
+
+    <category>
+		<pattern> * AKREDITASI DESPRO * </pattern>
+		<template>Akreditasi DESPRO UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern>  AKREDITASI DESPRO * </pattern>
+		<template>yaaa... Akreditasi DESPRO UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern> AKREDITASI DESPRO </pattern>
+		<template>Akreditasi DESPRO UKDW yaitu "B" </template>
+	</category>
+	<category>
+		<pattern>* AKREDITASI DESPRO </pattern>
+		<template>Akreditasi DESPRO  UKDW yaitu "B" </template>
+	</category>
+
+</aiml>

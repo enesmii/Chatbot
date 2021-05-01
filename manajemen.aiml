@@ -1,0 +1,152 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- manajemen.aiml -->
+
+                             <!--JADWAL MANAJEMEN -->
+	<category>
+       <pattern>* JADWAL TES MANAJEMEN *</pattern>
+       <template> <srai>JADWAL MANAJEMEN </srai></template>
+    </category>
+    <category>
+       <pattern>* TES MANAJEMEN </pattern>
+       <template> <srai>JADWAL MANAJEMEN </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES MANAJEMEN </pattern>
+       <template> <srai>JADWAL MANAJEMEN </srai></template>
+    </category>
+     <category>
+       <pattern>TES MANAJEMEN </pattern>
+       <template> <srai>JADWAL MANAJEMEN </srai> </template>
+    </category>
+
+    <category>
+       <pattern> JADWAL MANAJEMEN </pattern>
+       <template> Jadwal Tes Manajemen ada 3 seleksi nih. Pilih salah satu antara : REGULER,
+        MANDIRI atau PRESTASI untuk lebih tau Tanggal tes nya. </template>
+    </category>
+
+                                 <!-- TUTUP PENDAFTARAN MANAJEMEN -->
+    <category>
+       <pattern>* TUTUP PENDAFTARAN MANAJEMEN * </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern>* PENDAFTARAN TERAKHIR MANAJEMEN </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern> PENDAFTARAN TERAKHIR MANAJEMEN </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+
+
+                                    <!-- BIAYA KULIAH MANAJEMEN -->
+
+    <category>
+		<pattern>* BIAYA KULIAH MANAJEMEN* </pattern>
+		<template><srai> BIAYA KULIAH MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern>BIAYA KULIAH MANAJEMEN* </pattern>
+		<template><srai> BIAYA KULIAH MANAJEMEN </srai> </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH MANAJEMEN </pattern>
+		<template> <srai> BIAYA KULIAH MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH * MANAJEMEN </pattern>
+		<template> <srai> BIAYA KULIAH MANAJEMEN </srai>  </template>
+	</category>
+	<category>
+		<pattern>  BIAYA KULIAH MANAJEMEN </pattern>
+		<template> Biaya MANAJEMEN  Untuk estimasi semester 1 : Rp. 8.230.000,- Biaya DPFP : RP.18.000.000,-
+		        untuk estimasi 8 semester : Rp. 72.640.000,- </template>
+	</category>
+
+
+                        <!-- BIAYA PENDAFTARAN  MANAJEMEN -->
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN MANAJEMEN * </pattern>
+		<template><srai> BIAYA PENDAFTARAN MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN MANAJEMEN * </pattern>
+		<template><srai> BIAYA PENDAFTARAN MANAJEMEN </srai> </template>
+	</category>
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN MANAJEMEN </pattern>
+		<template> <srai> BIAYA PENDAFTARAN MANAJEMEN </srai>  </template>
+	</category>
+	<category>
+		<pattern> BIAYA DAFTAR MANAJEMEN </pattern>
+		<template> <srai> BIAYA PENDAFTARAN MANAJEMEN </srai>  </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA PENDAFTARAN MANAJEMEN </pattern>
+		<template> Biaya Pendaftaran Manajemen:  Rp.200.000 </template>
+	</category>
+
+
+                                    <!-- SYARAT MANAJEMEN -->
+    <category>
+		<pattern>* SYARAT PENDAFTARAN MANAJEMEN </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT MANAJEMEN </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * MANAJEMEN </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT MANAJEMEN </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  MANAJEMEN * </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * MANAJEMEN * </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * MANAJEMEN  </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  MANAJEMEN  </pattern>
+		<template><srai> SYARAT DAFTAR MANAJEMEN </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR MANAJEMEN </pattern>
+		<template>Syarat Pendaftaran Prodi Manajemen adalah Mengisi Formulir Pendaftaran, Fotocopy Rapor kelas 10-12 dan Foto berwarna </template>
+	</category>
+
+
+
+    <category>
+		<pattern> * AKREDITASI MANAJEMEN* </pattern>
+		<template>Akreditasi MANAJEMEN UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern>  AKREDITASI MANAJEMEN * </pattern>
+		<template>yaaa... Akreditasi MANAJEMEN UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern> AKREDITASI MANAJEMEN </pattern>
+		<template>Akreditasi MANAJEMEN UKDW yaitu "B" </template>
+	</category>
+	<category>
+		<pattern>* AKREDITASI MANAJEMEN </pattern>
+		<template>Akreditasi MANAJEMEN UKDW yaitu "B" </template>
+	</category>
+
+</aiml>

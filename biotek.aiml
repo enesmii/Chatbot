@@ -1,0 +1,161 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+
+	<!-- BIOTEK.aiml -->
+
+	  <!--JADWAL BIOTEKNOLOGI -->
+
+	<category>
+       <pattern>* JADWAL TES BIOTEKNOLOGI *</pattern>
+       <template> <srai>JADWAL BIOTEKNOLOGI </srai></template>
+    </category>
+    <category>
+       <pattern>* TES BIOTEKNOLOGI </pattern>
+       <template> <srai>JADWAL BIOTEKNOLOGI </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES BIOTEKNOLOGI </pattern>
+       <template> <srai>JADWAL BIOTEKNOLOGI </srai></template>
+    </category>
+     <category>
+       <pattern>TES BIOTEKNOLOGI </pattern>
+       <template> <srai>JADWAL BIOTEKNOLOGI </srai> </template>
+    </category>
+    <category>
+       <pattern>UJIAN BIOTEKNOLOGI </pattern>
+       <template> <srai>JADWAL BIOTEKNOLOGI </srai> </template>
+    </category>
+
+    <category>
+       <pattern> JADWAL BIOTEKNOLOGI </pattern>
+       <template> Jadwal Tes Bioteknologi ada 3 seleksi nih. Pilih salah satu antara : REGULER,
+        MANDIRI atau PRESTASI untuk lebih tau Tanggal tes nya. </template>
+    </category>
+
+                                 <!-- TUTUP PENDAFTARAN BIOTEKNOLOGI -->
+    <category>
+       <pattern>* TUTUP PENDAFTARAN BIOTEKNOLOGI * </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern>* PENDAFTARAN TERAKHIR BIOTEKNOLOGI </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern> PENDAFTARAN TERAKHIR BIOTEKNOLOGI </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+
+
+                                    <!-- BIAYA KULIAH BIOTEKNOLOGI -->
+
+    <category>
+		<pattern>* BIAYA KULIAH BIOTEKNOLOGI* </pattern>
+		<template><srai> BIAYA KULIAH BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>BIAYA KULIAH BIOTEKNOLOGI* </pattern>
+		<template><srai> BIAYA KULIAH BIOTEKNOLOGI </srai> </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH BIOTEKNOLOGI </pattern>
+		<template> <srai> BIAYA KULIAH BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH * BIOTEKNOLOGI </pattern>
+		<template> <srai> BIAYA KULIAH BIOTEKNOLOGI </srai>  </template>
+	</category>
+	<category>
+		<pattern>  BIAYA KULIAH BIOTEKNOLOGI </pattern>
+		<template> Biaya Kuliah di Prodi Bioteknologi Untuk estimasi semester 1 total : Rp. 9.630.000,- Untuk Biaya DPFP dengan
+		jumlah: RP.18.000.000,-
+		        untuk estimasi 8 semester keseluruhan dengan total biaya: Rp. 72.640.000,-  </template>
+	</category>
+
+
+                        <!-- BIAYA PENDAFTARAN  BIOTEKNOLOGI -->
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN BIOTEKNOLOGI * </pattern>
+		<template><srai> BIAYA PENDAFTARAN BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN BIOTEKNOLOGI * </pattern>
+		<template><srai> BIAYA PENDAFTARAN BIOTEKNOLOGI </srai> </template>
+	</category>
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN BIOTEKNOLOGI </pattern>
+		<template> <srai> BIAYA PENDAFTARAN BIOTEKNOLOGI </srai>  </template>
+	</category>
+	<category>
+		<pattern> BIAYA DAFTAR BIOTEKNOLOGI </pattern>
+		<template> <srai> BIAYA PENDAFTARAN BIOTEKNOLOGI </srai>  </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA PENDAFTARAN BIOTEKNOLOGI  </pattern>
+		<template> Untuk Biaya Pendaftaran Prodi Bioteknologi dengan biaya :  Rp.200.000 </template>
+	</category>
+
+
+                                    <!-- SYARAT BIOTEKNOLOGI -->
+    <category>
+		<pattern>* SYARAT PENDAFTARAN BIOTEKNOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT BIOTEKNOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * BIOTEKNOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT BIOTEKNOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  BIOTEKNOLOGI * </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * BIOTEKNOLOGI * </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * BIOTEKNOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  BIOTEKNOLOGI  </pattern>
+		<template><srai> SYARAT DAFTAR BIOTEKNOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR BIOTEKNOLOGI </pattern>
+		<template>Syarat Pendaftaran Prodi Bioteknologi adalah Mengisi Formulir Pendaftaran,
+		 Fotocopy Rapor kelas 10-12, Ijazah/SKHU dan Foto berwarna </template>
+	</category>
+
+
+
+    <category>
+		<pattern> * AKREDITASI BIOTEKNOLOGI* </pattern>
+		<template>Akreditasi BIOTEKNOLOGI UKDW  "A" </template>
+	</category>
+	  <category>
+		<pattern>  AKREDITASI BIOTEKNOLOGI * </pattern>
+		<template>yaaa... Akreditasi BIOTEKNOLOGI UKDW  "A" </template>
+	</category>
+	  <category>
+		<pattern> AKREDITASI BIOTEKNOLOGI</pattern>
+		<template>Akreditasi BIOTEKNOLOGI UKDW yaitu "A" </template>
+	</category>
+	<category>
+		<pattern>* AKREDITASI BIOTEKNOLOGI </pattern>
+		<template>Akreditasi BIOTEKNOLOGI  UKDW yaitu "A" </template>
+	</category>
+
+
+</aiml>

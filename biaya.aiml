@@ -1,0 +1,101 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- biaya.aiml -->
+	<category>
+		<pattern>BERAPA BIAYA PENDIDIKAN AWAL UNTUK TEOLOGI</pattern>
+		<template>Biaya 1 : 9.690.000 dan Biaya 2 : 12.000.000, Jadi total : Rp.21.690.000</template>
+	</category>
+	<category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK AKUNTANSI</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA AWAL YANG HARUS DIBAYARKAN UNTUK PRODI AKUNTANSI</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA AWAL YANG HARUS DIBAYARKAN UNTUK JURUSAN AKUNTANSI</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA AWAL YANG HARUS DIBAYARKAN UNTUK AKUNTANSI</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK AKUNTANSI</srai></template>
+    </category>
+    <category>
+       <pattern>BIAYA PENDIDIKAN AWAL MASUK AKUNTANSI</pattern>
+       <template>Biaya 1 : Rp.8.430.000 dan Biaya 2 : Rp.18.000.000, Jadi total : Rp.26.430.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK PRODI ARSITEKTUR</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK UNTUK ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK JURUSAN ARSITEKTUR</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK UNTUK ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA AWAL YANG HARUS DIBAYARKAN UNTUK PRODI ARSITEKTUR</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK UNTUK ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA AWAL YANG HARUS DIBAYARKAN UNTUK JURUSAN ARSITEKTUR</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK UNTUK ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA AWAL YANG HARUS DIBAYARKAN UNTUK ARSITEKTUR</pattern>
+       <template><srai>BIAYA PENDIDIKAN AWAL MASUK UNTUK ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>BIAYA PENDIDIKAN AWAL MASUK UNTUK ARSITEKTUR</pattern>
+       <template>Biaya 1 : Rp.9.380.000 dan Biaya 2 : Rp.20.000.000, Jadi total : Rp.29.380.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK BIOTEK</pattern>
+       <template>Biaya 1 : Rp.9.380.000 dan Biaya 2 : Rp.18.000.000, Jadi total : Rp.27.380.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK DESAIN PRODUK</pattern>
+       <template>Biaya 1 : Rp.9.190.000 dan Biaya 2 : Rp.18.000.000, Jadi total : Rp.27.190.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK MANAJEMEN</pattern>
+       <template>Biaya 1 : Rp.8.050.000 dan Biaya 2 : Rp.18.000.000, Jadi total : Rp.26.050.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK INFORMATIKA</pattern>
+       <template>Biaya 1 : Rp.9.110.000 dan Biaya 2 : Rp.20.000.000, Jadi total : Rp.29.110.000</template>
+    </category>
+      <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK SISTEM INFORMASI</pattern>
+       <template><srai>BIAYA AWAL SISTEM INFORMASI</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA YANG HARUS DIBAYARKAN DIAWAL UNTUK PRODI SISTEM INFORMASI</pattern>
+       <template><srai>BIAYA AWAL SISTEM INFORMASI</srai></template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA YANG HARUS DIBAYARKAN DIAWAL UNTUK JURUSAN SISTEM INFORMASI</pattern>
+       <template><srai>BIAYA AWAL SISTEM INFORMASI</srai></template>
+    </category>
+    <category>
+       <pattern>BIAYA AWAL SISTEM INFORMASI</pattern>
+       <template>Biaya 1 : Rp.9.870.000 dan Biaya 2 : Rp.20.000.000, Jadi total : Rp.29.870.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN AWAL MASUK UNTUK PBI</pattern>
+       <template>Biaya 1 : Rp.7.910.000 dan Biaya 2 : Rp.15.000.000, Jadi total : Rp.22.910.000</template>
+    </category>
+    <category>
+		<pattern>APAKAH BIAYA KEDOKTERAN BISA DICICIL</pattern>
+		<template>Maaf banget tidak bisa. Biaya khusus kedokteran tidak bisa dicicil.</template>
+	</category>
+    <category>
+       <pattern>BERAPA BIAYA PENDIDIKAN KEDOKTERAN AWAL MASUK</pattern>
+       <template>Untuk Total uang masuk estimasi sekitar Rp.265.000.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA UANG PEMBANGUNAN KHUSUS KEDOKTERAN</pattern>
+       <template>Rp. 220.000.000 berlaku tahun 2019-2020</template>
+    </category>
+
+</aiml>

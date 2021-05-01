@@ -1,0 +1,139 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+
+
+
+ <!--JADWAL TEOLOGI -->
+	<category>
+       <pattern>* JADWAL TES TEOLOGI *</pattern>
+       <template> <srai>JADWAL TEOLOGI </srai></template>
+    </category>
+    <category>
+       <pattern>* TES TEOLOGI </pattern>
+       <template> <srai>JADWAL TEOLOGI </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES TEOLOGI </pattern>
+       <template> <srai>JADWAL TEOLOGI </srai></template>
+    </category>
+     <category>
+       <pattern>TES TEOLOGI </pattern>
+       <template> <srai>JADWAL TEOLOGI </srai> </template>
+    </category>
+
+    <category>
+       <pattern> JADWAL TEOLOGI </pattern>
+       <template> Tes teologi ada 3 Gelombang nih. Gelombang 1 =(4-5 juni 2021)
+                Gelombang 2 = (2-3 juli 2021)  Gelombang 3 = (29-30 Juli 2021) </template>
+    </category>
+
+                                 <!-- TUTUP PENDAFTARAN TEOLOGI -->
+    <category>
+       <pattern>* TUTUP PENDAFTARAN TEOLOGI * </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern>* PENDAFTARAN TERAKHIR TEOLOGI </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern> PENDAFTARAN TERAKHIR TEOLOGI </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+
+
+                                    <!-- BIAYA KULIAH TEOLOGI -->
+
+    <category>
+		<pattern>* BIAYA KULIAH TEOLOGI* </pattern>
+		<template><srai> BIAYA KULIAH TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>BIAYA KULIAH TEOLOGI* </pattern>
+		<template><srai> BIAYA KULIAH TEOLOGI </srai> </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH TEOLOGI </pattern>
+		<template> <srai> BIAYA KULIAH TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH * TEOLOGI </pattern>
+		<template> <srai> BIAYA KULIAH TEOLOGI </srai>  </template>
+	</category>
+	<category>
+		<pattern>  BIAYA KULIAH TEOLOGI </pattern>
+		<template> Biaya Kuliah Fakultas Teologi  Untuk estimasi semester 1 : Rp. 8.230.000,- Biaya DPFP : RP.18.000.000,-
+		        untuk estimasi 8 semester dengan Total Biaya : Rp. 72.640.000,- </template>
+	</category>
+
+
+                        <!-- BIAYA PENDAFTARAN  TEOLOGI -->
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN TEOLOGI * </pattern>
+		<template><srai> BIAYA PENDAFTARAN TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN TEOLOGI * </pattern>
+		<template><srai> BIAYA PENDAFTARAN TEOLOGI </srai> </template>
+	</category>
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN TEOLOGI </pattern>
+		<template> <srai> BIAYA PENDAFTARAN TEOLOGI </srai>  </template>
+	</category>
+	<category>
+		<pattern> BIAYA DAFTAR TEOLOGI </pattern>
+		<template> <srai> BIAYA PENDAFTARAN TEOLOGI </srai>  </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA PENDAFTARAN TEOLOGI </pattern>
+		<template> Biaya Pendaftaran Teologi:  Rp.500.000 </template>
+	</category>
+
+
+                                    <!-- SYARAT TEOLOGI -->
+    <category>
+		<pattern>* SYARAT PENDAFTARAN TEOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT TEOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * TEOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT TEOLOGI </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  TEOLOGI * </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * TEOLOGI * </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * TEOLOGI  </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  TEOLOGI  </pattern>
+		<template><srai> SYARAT DAFTAR TEOLOGI </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR TEOLOGI </pattern>
+		<template>Persyaratan Teologi : Rapor 10-12, Foto berwarna, Surat Rekomendasi Gereja, Surat Baptis/sidi,
+		          Surat kesanggupan biaya.  </template>
+		</category>
+
+
+
+
+
+</aiml>

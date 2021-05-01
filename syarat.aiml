@@ -1,0 +1,196 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- syarat.aiml -->
+	<category>
+		<pattern>KAPAN UJIAN KEDOKTERAN </pattern>
+		<template>yahh... Untuk Tes Kedokteran sudah ditutup nih.
+		</template>
+	</category>
+	<category>
+		<pattern>KAPAN UJIAN TEOLOGI </pattern>
+		<template>untuk Tes Teologi terakhir di Gelombang 4 =  10-11 juli 2020
+		</template>
+	</category>
+
+	<category>
+       <pattern>APA SAJA SYARAT UNTUK IKUT JPA</pattern>
+       <template>Ada 5 syaratnya :
+                1.	Lulusan SMA tahun ini
+                2.	Rata-rata nilai rapor 75
+                3.	Fotocopy rapor kls 10-11
+                4.	Foto 3x4 (1 lembar)
+                5.	Mengisi formulir</template>
+    </category>
+    <category>
+       <pattern>SYARAT UNTUK IKUT JPA</pattern>
+       <template><srai>SYARAT JPA</srai></template>
+    </category>
+     <category>
+       <pattern>SYARAT JPA</pattern>
+       <template>Ada 5 syaratnya :
+                1.	Lulusan SMA tahun ini
+                2.	Rata-rata nilai rapor 75
+                3.	Fotocopy rapor kls 10-11
+                4.	Foto 3x4 (1 lembar)
+                5.	Mengisi formulir</template>
+    </category>
+    <category>
+       <pattern>APAKAH RATA RATA NILAI 74 BISA MENDAFTAR JALUR JPA</pattern>
+       <template>Maaf tidak bisa sekalipun itu 74.9 , Syarat JPA adalah minimal 75. Silahkan daftar jalur reguler ya.</template>
+    </category>
+    <category>
+       <pattern>JIKA SAYA DITOLAK DI JPA GELOMBANG 1 APAKAH MASIH BISA MENDAFTAR DI JPA GELOMBANG 2 ATAU 3</pattern>
+       <template>Maaf, untuk JPA hanya bisa sekali saja. Silahkan daftar jalur reguler</template>
+    </category>
+    <category>
+       <pattern>APAKAH LULUSAN TAHUN 2019 BISA IKUT JALUR JPA</pattern>
+       <template>Maaf tidak bisa, JPA khusus angkatan 2020. Silahkan daftar jalur reguler ya</template>
+    </category>
+    <category>
+	    <pattern>BAGAIMANA CARA MELAKUKAN PEMBAYARAN FORMULIR PENDAFTARAN</pattern>
+		<template>
+            Pembayaran dilakukan dengan invoice no.billing. No billing akan muncul di formulir pendaftaran online.
+		</template>
+	</category>
+	<category>
+	    <pattern>APAKAH PEMBAYARAN BIAYA PENDAFTARAN BISA MELALUI VIA ATM</pattern>
+		<template>
+            Biaya pendaftaran bisa dibayarkan melalui Bank, atm, maupun mbanking BRI, BNI, dan BPD selain dari itu tidak berlaku.
+	     </template>
+	</category>
+	<category>
+       <pattern>BERAPA UANG PENDAFTARAN UNTUK JALUR JPA</pattern>
+       <template>Biaya pendaftaran Rp.200.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA UANG PENDAFTARAN UNTUK JALUR JPM</pattern>
+       <template>Biaya pendaftaran Rp.200.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDAFTARAN UNTUK TEOLOGI</pattern>
+       <template>Biaya Pendaftaran Rp.500.000</template>
+    </category>
+    <category>
+       <pattern>BERAPA BIAYA PENDAFTARAN UNTUK KEDOKTERAN</pattern>
+       <template>Biaya pendaftaran Rp.500.000</template>
+    </category>
+    <category>
+       <pattern>APAKAH ADA NOMOR REKENING UKDW YANG BISA DIGUNAKAN UNTUK MELAKUKAN PEMBAYARAN</pattern>
+       <template>maaf, sekarang tidak membayar menggunakan no. rekening.
+       Jika ingin mendaftar silahkan isi formulir online dan dapatkan No.billing pembayaran</template>
+    </category>
+    <category>
+		<pattern>BERAPA KUOTA UNTUK TEOLOGI PERTAHUNNYA</pattern>
+		<template>Kuota untuk teologi sekitar 60 orang</template>
+	</category>
+
+<category>
+       <pattern>APAKAH MASUK ARSITEKTUR HARUS BISA MENGGAMBAR</pattern>
+       <template><srai>DAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</srai></template>
+    </category>
+    <category>
+       <pattern>APAKAH KALAU MAU MENDAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</pattern>
+       <template><srai>DAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</srai></template>
+    </category>
+    <category>
+       <pattern>APA KALAU MAU MENDAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</pattern>
+       <template><srai>DAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</srai></template>
+    </category>
+    <category>
+       <pattern>APA KALAU MAU DAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</pattern>
+       <template><srai>DAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</srai></template>
+    </category>
+    <category>
+       <pattern>DAFTAR ARSITEKTUR HARUS BISA MENGGAMBAR</pattern>
+       <template>Ya, seharusnya bisa. Tapi ga perlu mahir. Karna prodi arsitektur mempunyai basic menggambar.</template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR ARSITEKTUR</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR PRODI ARSITEKTUR</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR JURUSAN ARSITEKTUR</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>AKU DI SMA JURUSAN IPS NIH APAKAH BISA DAFTAR ARSITEKTUR</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>AKU DI SMA JURUSAN IPS NIH APAKAH BISA MENDAFTAR ARSITEKTUR</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN ARSITEKTUR</srai></template>
+    </category>
+    <category>
+       <pattern>JURUSAN IPS BISA DAFTAR JURUSAN ARSITEKTUR</pattern>
+       <template>Bisa kok. Yuk daftar di pmb.ukdw.ac.id</template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR BIOTEK</pattern>
+       <template>Bisa kok. Yuk daftar di pmb.ukdw.ac.id</template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR MANAJEMEN</pattern>
+       <template>Bisa kok. Yuk daftar di pmb.ukdw.ac.id</template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR INFORMATIKA</pattern>
+       <template>Bisa kok. Yuk daftar di pmb.ukdw.ac.id</template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR SISTEM INFORMASI</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN SISTEM INFORMASI</srai></template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR PRODI SISTEM INFORMASI</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN SISTEM INFORMASI</srai></template>
+    </category>
+    <category>
+       <pattern>APAKAH JURUSAN IPS BISA DAFTAR JURUSAN SISTEM INFORMASI</pattern>
+       <template><srai>JURUSAN IPS BISA DAFTAR JURUSAN SISTEM INFORMASI</srai></template>
+    </category>
+    <category>
+       <pattern>JURUSAN IPS BISA DAFTAR JURUSAN SISTEM INFORMASI</pattern>
+       <template>Bisa kok. Yuk daftar di pmb.ukdw.ac.id</template>
+    </category>
+    <category>
+		<pattern>BERAPA KUOTA UNTUK KEDOKTERAN</pattern>
+		<template>Kuota kedokteran sekitar 100 orang</template>
+	</category>
+	<category>
+		<pattern>APAKAH BIAYA KEDOKTERAN BISA DICICIL</pattern>
+		<template>Maaf banget tidak bisa. Biaya khusus kedokteran tidak bisa dicicil.</template>
+	</category>
+	<category>
+		<pattern>BERAPA LAMA JANGKA WAKTU PEMBAYARAN MAHASISWA KEDOKTERAN</pattern>
+		<template>Selama 1 minggu setelah pengumuman diterima.</template>
+	</category>
+	<category>
+		<pattern>MAKSIMAL BERAPA KALI BISA TES KEDOKTERAN</pattern>
+		<template>Maksimal coba tes hanya 2 kali dalam 1 tahun periode PMB</template>
+	</category>
+	<category>
+		<pattern>BERAPA LAMA KULIAH KEDOKTERAN DI UKDW</pattern>
+		<template>Kuliah untuk S.Ked dibutuhkan 4 tahun dan 2 tahun untuk profesi Dokter</template>
+	</category>
+	<category>
+		<pattern>BERAPA KUOTA UNTUK KEDOKTERAN</pattern>
+		<template>Kuota kedokteran sekitar 100 orang</template>
+	</category>
+	<category>
+		<pattern>BERAPA LAMA JANGKA WAKTU PEMBAYARAN MAHASISWA KEDOKTERAN</pattern>
+		<template>Selama 1 minggu setelah pengumuman diterima.</template>
+	</category>
+	<category>
+		<pattern>MAKSIMAL BERAPA KALI BISA TES KEDOKTERAN</pattern>
+		<template>Maksimal coba tes hanya 2 kali dalam 1 tahun periode PMB</template>
+	</category>
+	<category>
+		<pattern>BERAPA LAMA KULIAH KEDOKTERAN DI UKDW</pattern>
+		<template>Kuliah untuk S.Ked dibutuhkan 4 tahun dan 2 tahun untuk profesi Dokter</template>
+	</category>
+
+</aiml>

@@ -1,0 +1,163 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- arsitektur.aiml -->
+
+
+	                            <!--JADWAL ARSITEKTUR -->
+	<category>
+       <pattern>* JADWAL TES ARSITEKTUR *</pattern>
+       <template> <srai>JADWAL ARSITEKTUR </srai></template>
+    </category>
+    <category>
+       <pattern>* TES ARSITEKTUR </pattern>
+       <template> <srai>JADWAL ARSITEKTUR </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES ARSITEKTUR </pattern>
+       <template> <srai>JADWAL ARSITEKTUR </srai></template>
+    </category>
+     <category>
+       <pattern>TES ARSITEKTUR </pattern>
+       <template> <srai>JADWAL ARSITEKTUR </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES ARSI </pattern>
+       <template> <srai>JADWAL ARSITEKTUR </srai></template>
+    </category>
+    <category>
+       <pattern> JADWAL ARSI </pattern>
+       <template> <srai>JADWAL ARSITEKTUR </srai></template>
+    </category>
+
+    <category>
+       <pattern> JADWAL ARSITEKTUR </pattern>
+       <template> Jadwal Tes Arsitektur ada 3 seleksi nih. Pilih salah satu antara : REGULER,
+        MANDIRI atau PRESTASI untuk lebih tau Tanggal tes nya. </template>
+    </category>
+
+                                 <!-- TUTUP PENDAFTARAN ARSITEKTUR -->
+    <category>
+       <pattern>* TUTUP PENDAFTARAN ARSITEKTUR * </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern>* PENDAFTARAN TERAKHIR ARSITEKTUR </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern> PENDAFTARAN TERAKHIR ARSITEKTUR </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+
+
+                                    <!-- BIAYA KULIAH ARSITEKTUR -->
+
+    <category>
+		<pattern>* BIAYA KULIAH ARSITEKTUR* </pattern>
+		<template><srai> BIAYA KULIAH ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern>BIAYA KULIAH ARSITEKTUR* </pattern>
+		<template><srai> BIAYA KULIAH ARSITEKTUR </srai> </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH ARSITEKTUR </pattern>
+		<template> <srai> BIAYA KULIAH ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH * ARSITEKTUR </pattern>
+		<template> <srai> BIAYA KULIAH ARSITEKTUR </srai>  </template>
+	</category>
+	<category>
+		<pattern>  BIAYA KULIAH ARSITEKTUR </pattern>
+		<template> Biaya Kuliah di Prodi Arsitektur Untuk estimasi semester 1 total : Rp. 9.630.000,- Untuk Biaya DPFP dengan
+		jumlah: RP.20.000.000,-
+		        untuk estimasi 8 semester keseluruhan dengan total biaya: Rp. 86.640.000,-  </template>
+	</category>
+
+
+                        <!-- BIAYA PENDAFTARAN  ARSITEKTUR -->
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN ARSITEKTUR * </pattern>
+		<template><srai> BIAYA PENDAFTARAN ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN ARSITEKTUR * </pattern>
+		<template><srai> BIAYA PENDAFTARAN ARSITEKTUR </srai> </template>
+	</category>
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN ARSITEKTUR </pattern>
+		<template> <srai> BIAYA PENDAFTARAN ARSITEKTUR </srai>  </template>
+	</category>
+	<category>
+		<pattern> BIAYA DAFTAR ARSITEKTUR </pattern>
+		<template> <srai> BIAYA PENDAFTARAN ARSITEKTUR </srai>  </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA PENDAFTARAN ARSITEKTUR </pattern>
+		<template> Untuk Biaya Pendaftaran Arsitektur dengan biaya :  Rp.200.000 </template>
+	</category>
+
+
+                                    <!-- SYARAT ARSITEKTUR -->
+    <category>
+		<pattern>* SYARAT PENDAFTARAN ARSITEKTUR </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT ARSITEKTUR </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * ARSITEKTUR </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT ARSITEKTUR </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  ARSITEKTUR * </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * ARSITEKTUR * </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * ARSITEKTUR  </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  ARSITEKTUR  </pattern>
+		<template><srai> SYARAT DAFTAR ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR ARSITEKTUR </pattern>
+		<template>Syarat Pendaftaran Prodi Arsitektur adalah Mengisi Formulir Pendaftaran,
+		 Fotocopy Rapor kelas 10-12, Surat Buta Warna, Sketsa 2 Lembar dan Foto berwarna </template>
+	</category>
+
+
+
+    <category>
+		<pattern> * AKREDITASI ARSITEKTUR* </pattern>
+		<template>Akreditasi ARSITEKTUR UKDW  "A" </template>
+	</category>
+	  <category>
+		<pattern>  AKREDITASI ARSITEKTUR * </pattern>
+		<template>yaaa... Akreditasi ARSITEKTUR UKDW  "A" </template>
+	</category>
+	  <category>
+		<pattern> AKREDITASI ARSITEKTUR </pattern>
+		<template>Akreditasi MANAJEMEN UKDW yaitu "A" </template>
+	</category>
+	<category>
+		<pattern>* AKREDITASI ARSITEKTUR </pattern>
+		<template>Akreditasi ARSITEKTUR UKDW yaitu "A" </template>
+	</category>
+
+</aiml>

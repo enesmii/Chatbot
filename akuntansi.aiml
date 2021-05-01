@@ -1,0 +1,158 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- AKUNTASI.aiml -->
+
+	                            <!--JADWAL AKUNTANSI -->
+	<category>
+       <pattern>* JADWAL TES AKUNTANSI *</pattern>
+       <template> <srai>JADWAL AKUNTANSI </srai></template>
+    </category>
+    <category>
+       <pattern>* TES AKUNTANSI </pattern>
+       <template> <srai>JADWAL AKUNTANSI </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES AKUNTANSI </pattern>
+       <template> <srai>JADWAL AKUNTANSI </srai></template>
+    </category>
+     <category>
+       <pattern>TES AKUNTANSI </pattern>
+       <template> <srai>JADWAL AKUNTANSI </srai> </template>
+    </category>
+    <category>
+       <pattern>UJIAN AKUNTANSI </pattern>
+       <template> <srai>JADWAL AKUNTANSI </srai> </template>
+    </category>
+
+    <category>
+       <pattern> JADWAL AKUNTANSI </pattern>
+       <template> Jadwal Tes Akuntansi ada 3 seleksi nih. Pilih salah satu antara : REGULER,
+        MANDIRI atau PRESTASI untuk lebih tau Tanggal tes nya. </template>
+    </category>
+
+                                 <!-- TUTUP PENDAFTARAN AKUNTANSI -->
+    <category>
+       <pattern>* TUTUP PENDAFTARAN AKUNTANSI * </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern>* PENDAFTARAN TERAKHIR AKUNTANSI </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+    <category>
+       <pattern> PENDAFTARAN TERAKHIR AKUNTANSI </pattern>
+       <template> Tes Seleksi tutup di Gelombang terakhir 13 Agustus 2021</template>
+    </category>
+
+
+                                    <!-- BIAYA KULIAH AKUNTANSI -->
+
+    <category>
+		<pattern>* BIAYA KULIAH AKUNTANSI* </pattern>
+		<template><srai> BIAYA KULIAH ARSITEKTUR </srai> </template>
+	</category>
+	<category>
+		<pattern>BIAYA KULIAH AKUNTANSI* </pattern>
+		<template><srai> BIAYA KULIAH AKUNTANSI </srai> </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH AKUNTANSI </pattern>
+		<template> <srai> BIAYA KULIAH AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern> * BIAYA KULIAH * ARSITEKTUR </pattern>
+		<template> <srai> BIAYA KULIAH ARSITEKTUR </srai>  </template>
+	</category>
+	<category>
+		<pattern>  BIAYA KULIAH AKUNTANSI </pattern>
+		<template> Biaya Kuliah di Prodi Akuntansi Untuk estimasi semester 1 total : Rp. 9.630.000,- Untuk Biaya DPFP dengan
+		jumlah: RP.20.000.000,-
+		        untuk estimasi 8 semester keseluruhan dengan total biaya: Rp. 86.640.000,-  </template>
+	</category>
+
+
+                        <!-- BIAYA PENDAFTARAN  AKUNTANSI -->
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN AKUNTANSI * </pattern>
+		<template><srai> BIAYA PENDAFTARAN AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN AKUNTANSI * </pattern>
+		<template><srai> BIAYA PENDAFTARAN AKUNTANSI </srai> </template>
+	</category>
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN AKUNTANSI </pattern>
+		<template> <srai> BIAYA PENDAFTARAN AKUNTANSI </srai>  </template>
+	</category>
+	<category>
+		<pattern> BIAYA DAFTAR AKUNTANSI </pattern>
+		<template> <srai> BIAYA PENDAFTARAN AKUNTANSI </srai>  </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA PENDAFTARAN AKUNTANSI </pattern>
+		<template> Untuk Biaya Pendaftaran Prodi Akuntasi dengan biaya :  Rp.200.000 </template>
+	</category>
+
+
+                                    <!-- SYARATAKUNTANSI -->
+    <category>
+		<pattern>* SYARAT PENDAFTARAN AKUNTANSI </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT AKUNTANSI </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * AKUNTANSI </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT AKUNTANSI </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  AKUNTANSI * </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * AKUNTANSI * </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * AKUNTANSI </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  AKUNTANSI  </pattern>
+		<template><srai> SYARAT DAFTAR AKUNTANSI </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR AKUNTANSI </pattern>
+		<template>Syarat Pendaftaran Prodi Akuntansi adalah Mengisi Formulir Pendaftaran,
+		 Fotocopy Rapor kelas 10-12, Ijazah/SKHU dan Foto berwarna </template>
+	</category>
+
+
+
+    <category>
+		<pattern> * AKREDITASI AKUNTANSI* </pattern>
+		<template>Akreditasi AKUNTANSI UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern>  AKREDITASI AKUNTANSI * </pattern>
+		<template>yaaa... Akreditasi AKUNTANSI UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern> AKREDITASI AKUNTANSI </pattern>
+		<template>Akreditasi AKUNTANSI UKDW yaitu "B" </template>
+	</category>
+	<category>
+		<pattern>* AKREDITASI AKUNTANSI </pattern>
+		<template>Akreditasi AKUNTANSI UKDW yaitu "B" </template>
+	</category>
+
+</aiml>

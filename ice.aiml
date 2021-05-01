@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- ice.aiml -->
+	<category>
+		<pattern>APA ITU ICE</pattern>
+		<template><srai>ICE</srai></template>
+	</category>
+	<category>
+	    <pattern>ARTI ICE</pattern>
+	    <template><srai>ICE</srai></template>
+	 </category>
+	 <category>
+	    <pattern>ICE</pattern>
+	    <template>: ICE ( introduction to college english) adalah program wajib non SKS yang
+		merupakan mata kuliah prasyarat untuk mengambil mata kuliah Bahasa inggris.
+		Program Ice dibagi dalam 3 level ( level 1, level 2 , level 3 ) yang harus diselesaikan
+		sampai dengan 3 level . Jika sudah lulus maka akan mendapat sertifikat ice dari PPB
+		</template>
+	</category>
+</aiml>

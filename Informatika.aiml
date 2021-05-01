@@ -1,0 +1,161 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+	<!-- informatika.aiml -->
+	<category>
+       <pattern>* JADWAL TES INFORMATIKA *</pattern>
+       <template> <srai>JADWAL INFORMATIKA </srai></template>
+    </category>
+    <category>
+       <pattern>* TES INFORMATIKA </pattern>
+       <template> <srai>JADWAL INFORMATIKA </srai> </template>
+    </category>
+    <category>
+       <pattern>* JADWAL * TES INFORMATIKA </pattern>
+       <template> <srai>JADWAL INFORMATIKA </srai></template>
+    </category>
+     <category>
+       <pattern>TES INFORMATIKA </pattern>
+       <template> <srai>JADWAL INFORMATIKA </srai> </template>
+    </category>
+
+    <category>
+       <pattern> JADWAL INFORMATIKA </pattern>
+       <template> Jadwal Tes Informatika ada 3 seleksi nih. Silahkan Ketik *REGULER*,
+        *MANDIRI* atau *PRESTASI* untuk lebih tau Tanggal tes nya. </template>
+    </category>
+
+
+
+
+    <category>
+		<pattern>REGULER</pattern>
+		<template>Seleksi Reguler Gelombang 1 yaitu 21 MEI-15 JUNI 2021 dan Gelombang 2 yaitu 2 JULI-13 AGUSTUS 2021.  </template>
+	</category>
+
+	<category>
+		<pattern>PRESTASI</pattern>
+		<template>Seleksi Prestasi sudah dibuka dari sekarang sampai tutup 11 JUNI 2021 </template>
+	</category>
+
+	<category>
+		<pattern>MANDIRI</pattern>
+		<template>Seleksi Mandiri sudah dibuka dari sekarang sampai tutup 11 juni 2021 </template>
+	</category>
+
+
+
+    <category>
+		<pattern>* BIAYA KULIAH INFORMATIKA * </pattern>
+		<template>Untuk estimasi semester 1 : Rp. 29.330.000,- untuk estimasi 8 semester : Rp. 78.640.000,- </template>
+	</category>
+    <category>
+		<pattern>* BIAYA KULIAH INFORMATIKA </pattern>
+		<template>Untuk estimasi semester 1 : Rp. 29.330.000,- untuk estimasi 8 semester : Rp. 78.640.000,- </template>
+	</category>
+    <category>
+		<pattern> * BIAYA KULIAH * INFORMATIKA </pattern>
+		<template>Untuk estimasi semester 1 : Rp. 29.330.000,- untuk estimasi 8 semester : Rp. 78.640.000,- </template>
+	</category>
+
+    <category>
+		<pattern> BIAYA KULIAH INFORMATIKA </pattern>
+		<template>Untuk estimasi semester 1 : Rp. 29.330.000,- untuk estimasi 8 semester : Rp. 78.640.000,- </template>
+	</category>
+
+	<category>
+		<pattern> BIAYA KULIAH SISTEM INFORMASI </pattern>
+		<template>Untuk estimasi semester 1 : Rp. 28.330.000,- untuk estimasi 8 semester : Rp. 78.640.000,- </template>
+	</category>
+
+
+
+    <category>
+		<pattern>* BIAYA PENDAFTARAN INFORMATIKA * </pattern>
+		<template>Untuk Biaya Pendaftaran Informatika Rp.200.000,- </template>
+	</category>
+    <category>
+		<pattern>* BIAYA PENDAFTARAN INFORMATIKA </pattern>
+		<template>Untuk Biaya Pendaftaran Informatika Rp.200.000,- </template>
+	</category>
+	<category>
+		<pattern> BIAYA PENDAFTARAN INFORMATIKA  </pattern>
+		<template>Untuk Biaya Pendaftaran Informatika Rp.200.000,- </template>
+	</category>
+
+     <category>
+		<pattern> * AKREDITASI INFORMATIKA * </pattern>
+		<template>Akreditasi Informatika UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern>  AKREDITASI INFORMATIKA * </pattern>
+		<template>yaaa... Akreditasi Informatika UKDW  "B" </template>
+	</category>
+	  <category>
+		<pattern> AKREDITASI * INFORMATIKA </pattern>
+		<template>Akreditasi Informatika UKDW yaitu "B" </template>
+	</category>
+	<category>
+		<pattern>* AKREDITASI  INFORMATIKA  </pattern>
+		<template>Akreditasi INFORMATIKA UKDW yaitu "B" </template>
+	</category>
+	<category>
+		<pattern> * AKREDITASI * INFORMATIKA </pattern>
+		<template>Akreditasi Informatika UKDW yaitu "B" </template>
+	</category>
+	<category>
+		<pattern> AKREDITASI  INFORMATIKA </pattern>
+		<template>Akreditasi Informatika UKDW yaitu "B" </template>
+	</category>
+
+    <category>
+		<pattern> BIAYA PENDAFTARAN INFORMATIKA * </pattern>
+		<template>Untuk Biaya Pendaftaran Informatika Rp.200.000,- </template>
+	</category>
+
+
+
+
+
+	<category>
+		<pattern>* SYARAT PENDAFTARAN INFORMATIKA </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern>* SYARAT INFORMATIKA </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern> * SYARAT * INFORMATIKA </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT INFORMATIKA * </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern>  SYARAT INFORMATIKA </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN  INFORMATIKA * </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern> PERSYARATAN * INFORMATIKA * </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern> * PERSYARATAN * INFORMATIKA  </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern>  PERSYARATAN  INFORMATIKA  </pattern>
+		<template><srai> SYARAT DAFTAR INFORMATIKA </srai> </template>
+	</category>
+	<category>
+		<pattern>SYARAT DAFTAR INFORMATIKA </pattern>
+		<template>Syarat Pendaftaran Prodi Informatika adalah Mengisi Formulir Pendaftaran, Fotocopy Rapor kelas 10-12 dan Foto berwarna </template>
+	</category>
+
+
+</aiml>
